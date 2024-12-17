@@ -1,0 +1,43 @@
+
+body{
+background-color: darkgray;
+color:teal;
+}header{
+font-family:'Franklin Gothic Medium",'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+text-size-adjust: 20cm;
+align-content: center;
+text-align:center;
+color: aliceblue;
+background-color:rgb(54,10,10);
+}
+input{
+&:hover{
+background-color:  rgb(147, 9, 9);
+colour:white;
+}
+}
+.chetan{
+
+color:rgb(54,10,10);
+
+background-color:rgb(8, 9, 9);
+
+}
+.chetan2
+{display:flex;
+flex-direction: row;
+grid-template-columns: 200px;
+column-gap: 10px;
+rоw-gар: 10px;
+padding:10px;
+margin: 200x;
+border: 2px;
+background-color:aliceblue;
+color: rgb(54,10,10);
+}
+footer
+ {
+background-color:rgb(54,10,10);
+color:aliceblue;
+}/*# sourceMappingURL=style.css.map */
