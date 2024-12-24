@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #0e0d0d;
+}
+
+header {
+    background-color: #f2a335;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .cart-icon a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff5c5c;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.cart-page {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-items {
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.cart-item .product-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cart-item .product-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cart-item .product-details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.cart-item .product-details .price {
+    color: #ff5c5c;
+    font-size: 16px;
+}
+
+.cart-item .product-details .quantity {
+    font-size: 14px;
+    color: #888;
+}
+
+.cart-item .remove-btn {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cart-summary p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.cart-summary .checkout-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+}
